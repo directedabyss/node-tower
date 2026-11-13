@@ -1,0 +1,27 @@
+{
+  "name": "node-tower",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "feed:check": "node scripts/feed-check.mjs",
+    "feed:serve": "node server/feed-server.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  },
+  "license": "MIT",
+  "description": "A live 3D office tower that shows bots or people working through tasks from a JSON/CSV file, Google Sheet, ClickUp, Trello, Notion or a webhook.",
+  "engines": {
+    "node": ">=18"
+  }
+}
