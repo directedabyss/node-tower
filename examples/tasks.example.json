@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    { "id": "ex-1", "owner": "Nova", "status": "in progress", "title": "Sketch the sample data model", "due": "2026-12-01" },
+    { "id": "ex-2", "owner": "Quill", "status": "to do", "title": "Draft example blog post", "due": "2026-12-03T17:00:00Z" },
+    { "id": "ex-3", "owner": "Titan", "status": "blocked", "title": "Prepare demo pricing table", "due": null, "blocker": "Waiting on Owner" },
+    { "id": "ex-4", "owner": "Sentry", "status": "review", "title": "Check sample release notes", "due": "2026-12-05" },
+    { "id": "ex-5", "owner": "Vega", "status": "done", "title": "Archive old demo files", "due": "2026-11-20" },
+    { "id": "ex-6", "owner": "Iris", "status": "cancelled", "title": "Compare two demo layouts", "due": null }
+  ]
+}
