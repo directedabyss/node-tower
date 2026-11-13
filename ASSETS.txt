@@ -1,0 +1,48 @@
+ASSETS
+
+Every image under public/ is listed below.
+
+New generic plates, Nov 13 2026
+--------------------------------
+These three plates are original generic art. No third-party art and
+no earlier private mockup art is included in them.
+
+public/plates/tower.png
+  Size: 720 x 1280, RGB PNG
+  How made: Original generic drawing written with a Python/PIL script
+  at the exact pixel size and layout used by the scene renderer
+  (floor bands, conference tables, penthouse monitor, elevator shaft
+  on the right). A GenerateImage polish pass was run from that
+  drawing for review. The shipped file is the exact-size PNG so
+  edges stay clean under nearest-neighbor canvas scaling.
+  Palette: neutral blue, white, and graphite. Modern office tower.
+  No people, no text, no logos, and no gold.
+
+public/plates/f2-floor.png
+  Size: 1280 x 720, RGB PNG
+  How made: Same process as tower.png. Open-plan office floor. The
+  outer wall shape follows the walkable footprint used by the
+  renderer so agent foot points stay on the floor. Desks sit at the
+  seat coordinates. A runner and planters mark the walk path.
+
+public/plates/f2-room.png
+  Size: 864 x 1152, RGB PNG
+  How made: Same process as tower.png. Office interior with a city
+  window, desks at the seat coordinates, and a planter strip along
+  the walk path.
+
+Kept from the original build
+----------------------------
+public/sprites/agents.png
+  Size: 432 x 152, RGBA PNG
+  Kept from the original build, as original project art, unchanged.
+  Same grid, frame size, and frame count as the renderer expects.
+
+public/sprites/agents.json
+  Slice map for agents.png. Kept from the original build,
+  unchanged.
+
+public/apple-touch-icon.png
+  Size: 180 x 180, RGB PNG
+  New neutral tower icon drawn in code with Python Pillow (simple
+  rectangles, blue and white on graphite). No third-party art.
